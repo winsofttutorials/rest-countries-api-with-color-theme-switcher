@@ -1,0 +1,36 @@
+html,
+body {
+  background-color: var(--Very-Light-Gray-Light-Mode);
+}
+
+.paddings {
+  padding: 20px 5%;
+}
+
+.flexCol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexColStart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.flexColCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.borderBottom {
+  border-bottom: 1px solid var(--Dark-Gray-Light-Mode-Input);
+}
