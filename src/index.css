@@ -34,3 +34,22 @@ body {
 .borderBottom {
   border-bottom: 1px solid var(--Dark-Gray-Light-Mode-Input);
 }
+
+.form {
+  width: 400px;
+  background-color: var(--White-Dark-Mode-Text-Light);
+  color: var(--Dark-Gray-Light-Mode-Input);
+  font-weight: 600;
+  padding: 12px 15px;
+  box-shadow: 0 10px -23px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+}
+
+input {
+  flex: 1;
+  border: 0;
+  outline: none;
+  margin-left: 15px;
+  color: var(--Dark-Gray-Light-Mode-Input);
+  font-weight: 600;
+}
