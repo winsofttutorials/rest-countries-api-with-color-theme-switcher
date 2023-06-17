@@ -1,5 +1,6 @@
 import React from "react";
 import { DarkMode } from "./";
+import "./Header.css";
 const Header = () => {
   return (
     <>

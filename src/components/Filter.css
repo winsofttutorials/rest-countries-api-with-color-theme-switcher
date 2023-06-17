@@ -1,0 +1,6 @@
+@media (max-width: 375px) {
+  .d-header {
+    width: 200px;
+    align-self: start;
+  }
+}

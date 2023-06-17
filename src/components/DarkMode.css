@@ -1,0 +1,20 @@
+span {
+  color: var(--Very-Dark-Blue-Dark-Mode);
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+i {
+  font-size: 18px;
+}
+
+@media (max-width: 375px) {
+  span {
+    font-size: 14px;
+  }
+
+  i {
+    font-size: 14px;
+  }
+}

@@ -53,3 +53,12 @@ input {
   color: var(--Dark-Gray-Light-Mode-Input);
   font-weight: 600;
 }
+
+.d-header {
+  width: 200px;
+  max-height: 400px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: var(--Very-Dark-Blue-Dark-Mode);
+  font-weight: 600;
+}

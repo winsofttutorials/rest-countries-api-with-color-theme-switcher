@@ -1,0 +1,40 @@
+.count-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.card {
+  background-color: var(--White-Dark-Mode-Text-Light);
+  box-shadow: 0 10px 20px -30px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+
+.card-container {
+  width: 100%;
+}
+
+.card-container img {
+  width: 100%;
+}
+
+.card > :nth-child(2) {
+  font-size: 18px;
+  color: var(--Very-Dark-Blue-Light-Mode);
+  margin-bottom: 15px;
+}
+
+.card > :nth-child(3) {
+  font-size: 14px;
+  color: var(--Very-Dark-Blue-Light-Mode);
+  margin-bottom: 5px;
+}
+.card > :nth-child(4) {
+  font-size: 14px;
+  color: var(--Very-Dark-Blue-Light-Mode);
+  margin-bottom: 5px;
+}
+.card > :nth-child(5) {
+  font-size: 14px;
+  color: var(--Very-Dark-Blue-Light-Mode);
+}
